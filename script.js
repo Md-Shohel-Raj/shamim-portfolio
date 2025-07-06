@@ -1,0 +1,1 @@
+document.getElementById('theme-toggle').addEventListener('click',()=>{document.body.classList.toggle('dark');});document.querySelectorAll('.nav-links a').forEach(a=>{a.addEventListener('click',e=>{e.preventDefault();document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth'});});});
